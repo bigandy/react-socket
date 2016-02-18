@@ -8,11 +8,11 @@ const client = redis.createClient({
 
 const express = require('express');
 const app = express();
-const http = require('http').Server(app); // eslint-disable-new-cap
+const http = require('http').Server(app); // eslint-disable-line new-cap
 const io = require('socket.io')(http);
 
 app.get('/', (req, res) => {
-	res.sendFile('index.html', { root: __dirname + '/public' }); // eslint-disable-prefer-template
+	res.sendFile('index.html', { root: __dirname + '/public' }); // eslint-disable-line prefer-template
 });
 
 // serves up css and js etc. from public folder
