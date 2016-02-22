@@ -23,16 +23,16 @@ module.exports = {
 		],
 		'max-len': [
 			2,
-			80,
+			150,
 			4,
 			{
-				'ignoreComments': true,
+				ignoreComments: true,
 			},
 		],
 	},
 	env: {
 		browser: true,
 		es6: true,
-		node: false,
+		node: true,
 	},
 };

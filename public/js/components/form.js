@@ -33,7 +33,7 @@ export default class FormComponent extends React.Component {
 		this.setState({ onOff: onOffState });
 		document.title = event.target.id.toUpperCase();
 		document.body.className = (onOffState === 0) ? 'body--off' : 'body--on';
-	}
+	};
 	render() {
 		return (
 			<form>
