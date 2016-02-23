@@ -22,11 +22,11 @@ module.exports = {
 			0,
 		],
 		'max-len': [
-			2,
+			1,
 			80,
 			4,
 			{
-				'ignoreComments': true,
+				ignoreComments: true,
 			},
 		],
 	},
